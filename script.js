@@ -2,7 +2,7 @@ let hourEle=document.getElementById("hour")
 let minEle=document.getElementById("min")
 let secEle=document.getElementById("sec")
 let ampm=document.getElementById("ampm")
-
+console.log(ampm)
 setInterval(()=>{
     let date=new Date
     let hour=date.getHours()
